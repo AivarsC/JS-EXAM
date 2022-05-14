@@ -19,3 +19,22 @@ const users = [
   { id: '8', name: 'Simon Peterson', age: 30 },
   { id: '9', name: 'Daniel Cane', age: 51 },
 ];
+
+// Sprendimas
+// 1.
+
+function getUserAverageAge(user) {
+  const average = user.reduce((x, y) => x + y.age, 0) /user.length;
+  return console.log(average);
+}
+
+getUserAverageAge(users);
+
+// 2.
+
+function getUsersName(user){
+  const usersNames = user.map(user => user.name);
+  return console.log(usersNames);
+}
+
+getUsersName(users);
