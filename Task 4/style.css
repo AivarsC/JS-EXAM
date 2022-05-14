@@ -27,3 +27,22 @@
   margin-top: 50px;
   color: #333;
 }
+
+#output {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#output >
+ div {
+  background-color: rgb(192, 184, 184);
+  border-radius: 4px;
+  color: rgb(35, 5, 5);
+  text-align: center;
+  width: 100%;
+  }
+
